@@ -1,4 +1,4 @@
-This repository contains data and experiments associated to the paper: Toscano-Duran,V., Gonzalez-Diaz,R., and Gutiérrez-Naranjo, M.A., "Barycentric Neural Networks and Length-Weighted Persistent Entropy Loss: A Green Geometric and Topological Framework for Function Approximation".
+This repository contains an example illustration of the framework developed in the paper: Toscano-Duran,V., Gonzalez-Diaz,R., and Gutiérrez-Naranjo, M.A., "Barycentric Neural Networks and Length-Weighted Persistent Entropy Loss: A Geometric and Topological Framework for Function Approximation". (Submitted to DGMM 2027)
 
 ## Usage
 
@@ -36,19 +36,7 @@ pip install ipykernel
 
 - `RepresentCPLF_BNN.ipynb`: It includes experiments on representing certain continuous piecewise linear functions (CPLFs) using the proposed barycentric neural network.
 
-- `AproxContinuousFunction_BNN.ipynb`: It contains experiments on approximating continuous functions using the proposed Baricentric Neural Network.
-
-- `ApproximationWithOutliers.ipynb`: It contains experiments to test the robustness of our framework on data with outliers (using LWPE as regularizer).
-
-- `Compare_PEVariants_forLoss`: It contains a comparison between different variants of persistent entropy, such as normal persistent entropy (PE) and length-weighted persistent entropy (LWPE), which we have developed. The aim is to determine which variant is best suited to use as a loss function.
-
 - `ApproximatingFunctionsUsingBNN_ComparisonMSEandLWPE.ipynb`: This contains experiments aimed at optimising the base points used to construct the barycentric neural network that approximates continuous functions in the TensorFlow framework using the LWPE loss function. It also compares the proposed persistent entropy-based loss function (LWPE) with the mean squared error (MSE) loss function.
-
-- `experimentsComparingLossFunction.py`: It contains experiments aimed at optimising the base points used to construct the barycentric neural network that approximates continuous functions. It compares different loss functions (mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), logcosh and our persistent entropy variant (LWPE)).
-
-- `results`: It contains the results of the different loss functions at the time the previous script was run.
-
-- `FiguresPaper`: This contains the code used to generate the illustrative figures that appear in the paper. These figures are saved in the 'figures' folder, alongside other figures that have been commented on and generated in the experimental notebooks.
 
 
 ## Citation and Reference
